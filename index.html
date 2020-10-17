@@ -1,32 +1,25 @@
 <!DOCTYPE html> 
 <html> 
-<body> 
-
-  
-<!-- <button onclick="myFunction()" type="button">Change Video</button><br> -->
-<select id="select_video" src="main.js">
-  <option selected="selected">Select Video</option>
-  <option value="shoulder_press">Shoulder Press</option>
-  <option value="squat_front">Squat front</option>
-</select>
-
-
-<video id="shoulder_press" controls autoplay>
-  <!-- <source id="mp4_src" src="mov_bbb.mp4" type="video/mp4"> -->
+  <body> 
     
-  <source id="shoulder_press_src" src="assets\fitback_shoulder_press1.mp4" type="video/mp4">
+    <select id="select_video" src="main.js">
+      <option selected="selected">Select Video</option>
+      <option value="shoulder_press">Shoulder Press</option>
+      <option value="squat_front">Squat front</option>
+    </select>
 
-  Your browser does not support HTML5 video.
-</video>
+    <video id="shoulder_press" controls autoplay>    
+      <source id="shoulder_press_src" src="assets\fitback_shoulder_press1.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
 
-<video id="squat_front" controls autoplay>
-  <source id="squat_front_src" src="assets\Squat_front.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
+    <video id="squat_front" controls autoplay>
+      <source id="squat_front_src" src="assets\Squat_front.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
 
+    <script src="main.js"></script> 
 
-<script src="main.js"></script> 
-
-</body> 
+  </body> 
 </html>
 
